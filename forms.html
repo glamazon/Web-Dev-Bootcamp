@@ -7,12 +7,11 @@
 
 <!--Exercise to get familiar with forms. Builds a log-in form UI. Does not hook into a backend.-->
 <!--Added <label> to correspond with inputs-->
-
-<form>
+<!--Added validation for email-->
 
 <h1>Login</h1>
 
-<label>
+<!-- <label>
 Username:
 <input name="username" type="text" placeholder="username">
 </label>
@@ -22,6 +21,18 @@ Username:
 	</form>
 	<input type="Submit">
 	</label>
+</form> -->
+
+<form action="http://www.wikipedia.org">
+
+<label for="username">Email:</label>
+<input id="username" type="email" placeholder="email" required>
+
+<label for="password">Password:</label>
+<input id="password" type="password" placeholder="password" required>
+
+	<input type="submit">
 </form>
+
 </body>
 </html>
