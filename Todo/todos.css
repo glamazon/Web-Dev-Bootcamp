@@ -1,0 +1,9 @@
+/*goes with todoList.html. learning about selecing with an id or class*/
+
+#special {
+	background: yellow;
+}
+
+.completed {
+	text-decoration: line-through;
+}
